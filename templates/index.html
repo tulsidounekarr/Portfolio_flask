@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <img src="{{ url_for('static', filename='profile.jpg') }}" alt="Profile Picture" class="profile-img">
+        <h1>Hi, I'm <span class="highlight">Tulsi</span></h1>
+        <p>Welcome to my portfolio website!</p>
+        <p>I am learning Flask and building cool things.</p>
+
+        <h2>🛠️ Skills</h2>
+        <ul class="skills">
+            <li>Python</li>
+            <li>Flask</li>
+            <li>Pandas</li>
+            <li>HTML & CSS</li>
+        </ul>
+
+        <h2>📁 Projects</h2>
+        <p><strong>BroskiesHub</strong> — I have experience and deepened my technical knowledge at BrokskiesHub through real-world projects and continuous learning..</p>
+
+        <h2>📬 Contact</h2>
+        <a href="{{ url_for('contact') }}">Send me a message</a>
+    </div>
+</body>
+</html>
