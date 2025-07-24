@@ -49,7 +49,7 @@ Then visit: http://127.0.0.1:5000
 
 # 📬 Contact
 If you'd like to collaborate or give feedback, visit the Contact page or message via GitHub.
- tulsidounekarr
+- tulsidounekarr
 
 ---
 
